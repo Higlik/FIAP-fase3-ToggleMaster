@@ -1,0 +1,15 @@
+# Terraform: arquivos locais
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Arquivos com variáveis e credenciais
+*.tfvars
+*.tfvars.json
+.terraformrc
+terraform.rc
+
+# Arquivos de configuração local da AWS
+.aws/
